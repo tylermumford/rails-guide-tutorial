@@ -1,7 +1,9 @@
-<p>
-    <strong><%= comment.commenter %>:</strong>
-</p>
+<% unless comment.archived? %>
+    <p>
+        <strong><%= comment.commenter %>:</strong>
+    </p>
 
-<p>
-    <%= comment.body %>
-</p>
+    <p>
+        <%= comment.body %>
+    </p>
+<% end %>
