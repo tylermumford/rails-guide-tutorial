@@ -1,24 +1,8 @@
-# README
+# Getting Started with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I decided to run this all in Docker. The setup is based on
+[this Quickstart documentation](https://docs.docker.com/samples/rails/).
 
-Things you may want to cover:
+This project is a simple blog, as described in [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html). I've played with Ruby before, but this is my first time using Rails.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Tip: `alias dcrw="docker compose run web"`
