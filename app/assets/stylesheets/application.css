@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+
+.article {
+    word-wrap: normal;
+    white-space: pre-line;
+}

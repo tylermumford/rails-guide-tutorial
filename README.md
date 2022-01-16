@@ -6,3 +6,5 @@ I decided to run this all in Docker. The setup is based on
 This project is a simple blog, as described in [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html). I've played with Ruby before, but this is my first time using Rails.
 
 Tip: `alias dcrw="docker compose run web"`
+
+Development: `docker compose up`
